@@ -1,0 +1,337 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.section-title {
+  font-family: "Brusher";
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #666;
+  text-align: center;
+  margin-top: 2.2rem;
+  opacity: .8;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  z-index: 2;
+}
+
+header .navbar {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+header .navbar ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  gap: 1rem;
+}
+
+header .logo {
+  text-align: center;
+}
+
+header .logo .logo-light {
+  display: block;
+}
+
+header .logo .logo-light img {
+  width: 153px;
+}
+
+header .logo .logo-dark {
+  display: none;
+}
+
+header .logo .logo-dark img {
+  width: 153px;
+}
+
+#slider .slider-img {
+  position: relative;
+}
+
+#slider .slider-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+#design-delicious {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+#design-delicious .design-delicious-heading {
+  padding: 4rem 28% 8rem;
+}
+
+#design-delicious .design-delicious-content .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+}
+
+#design-delicious .design-delicious-content .card img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+#design-delicious .design-delicious-content .card .card-body .card-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+#design-delicious .design-delicious-content .card .card-body .card-text {
+  font-size: 1.4rem;
+  color: #666;
+  text-align: center;
+  opacity: .7;
+  margin-top: 2.2rem;
+  line-height: 178%;
+}
+
+#progress-bar-main {
+  background-image: url(../img/home-5-parallax.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+#progress-bar-main .progress-bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+}
+
+#progress-bar-main .progress-bars .marketing {
+  background-color: transparent !important;
+  padding: 0 5rem;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-title-first {
+  margin-bottom: 1rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-title-first h3, #progress-bar-main .progress-bars .marketing .marketing-title-first span {
+  font-size: 1.4rem;
+  font-weight: 300 !important;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-title-second {
+  margin-bottom: 1rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-title-second h3, #progress-bar-main .progress-bars .marketing .marketing-title-second span {
+  font-size: 1.4rem;
+  font-weight: 300 !important;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-title-third {
+  margin-bottom: 1rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-title-third h3, #progress-bar-main .progress-bars .marketing .marketing-title-third span {
+  font-size: 1.4rem;
+  font-weight: 300 !important;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-progress {
+  position: relative;
+  background-color: #bcc9d6;
+  height: 1rem;
+  width: 100%;
+  opacity: .8;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-progress .marketing-progress-bar-first {
+  position: absolute;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+  -webkit-animation: progress-animation 5s forwards;
+          animation: progress-animation 5s forwards;
+  width: 50%;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-progress .marketing-progress-bar-second {
+  position: absolute;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+  -webkit-animation: progress-animation 5s forwards;
+          animation: progress-animation 5s forwards;
+  width: 70%;
+}
+
+#progress-bar-main .progress-bars .marketing .marketing-progress .marketing-progress-bar-third {
+  position: absolute;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+  -webkit-animation: progress-animation 5s forwards;
+          animation: progress-animation 5s forwards;
+  width: 85%;
+}
+
+#progress-bar-main .progress-bar-content .content-title {
+  font-family: "Brusher";
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#progress-bar-main .progress-bar-content .content-desc {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-top: 2.2rem;
+  margin-bottom: 3.4rem;
+  line-height: 3.5rem;
+}
+
+#progress-bar-main .progress-bar-content .content-btn {
+  padding: 1.4rem 3.2rem;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  font-weight: 500;
+  border: none !important;
+  border-radius: 0 !important;
+  -webkit-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+}
+
+#progress-bar-main .progress-bar-content .content-btn:hover {
+  background-color: #e1be64;
+  color: #fff;
+  -webkit-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+}
+
+#taste-romance {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#taste-romance .taste-romance-heading {
+  padding: 4rem 28% 8rem;
+}
+
+#taste-romance .taste-romance-content .card {
+  border: none;
+}
+
+#taste-romance .taste-romance-content .card .card-body {
+  text-align: center;
+}
+
+#taste-romance .taste-romance-content .card .card-body .card-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #303030;
+  margin-bottom: 2.4rem;
+  letter-spacing: .2rem;
+}
+
+#taste-romance .taste-romance-content .card .card-body .card-text {
+  font-size: 1.4rem;
+  color: #8d8d8d;
+  font-weight: 300;
+}

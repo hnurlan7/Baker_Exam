@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baker-final", "baker-final\baker-final.csproj", "{15DC2851-3C58-481C-9246-9942EF10F8A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DC2851-3C58-481C-9246-9942EF10F8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DC2851-3C58-481C-9246-9942EF10F8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DC2851-3C58-481C-9246-9942EF10F8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DC2851-3C58-481C-9246-9942EF10F8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC63A28F-CABB-4A5D-891C-B256ADC1DFB6}
+	EndGlobalSection
+EndGlobal

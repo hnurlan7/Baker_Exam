@@ -1,0 +1,105 @@
+@mixin progress-bars {
+    position: absolute;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 100%;
+    animation: progress-animation 5s forwards;
+}
+@mixin progress-title {
+    margin-bottom: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    h3, span {
+        font-size: 1.4rem;
+        font-weight: 300 !important;
+    }
+}
+#progress-bar-main {
+    background-image: url(../img/home-5-parallax.jpg);
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    
+    .progress-bars {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        .marketing {
+            background-color: transparent !important;
+            padding: 0 5rem;
+
+            .marketing-title-first {
+               @include progress-title;
+                width: 50%;
+            }
+            .marketing-title-second {
+               @include progress-title;
+                width: 70%;
+            }
+            .marketing-title-third {
+               @include progress-title;
+                width: 85%;
+            }
+            .marketing-progress {
+                position: relative;
+                background-color: #bcc9d6;
+                height: 1rem;
+                width: 100%;
+                opacity: .8;
+                
+                .marketing-progress-bar-first {
+                    @include progress-bars;
+                    width: 50%;
+                }
+                .marketing-progress-bar-second {
+                    @include progress-bars;
+                    width: 70%;
+                }
+                .marketing-progress-bar-third {
+                    @include progress-bars;
+                    width: 85%;
+                }
+
+            }
+        }
+    }
+
+    .progress-bar-content {        
+        .content-title {
+            font-family: $heading-font-family;
+            font-size: 4.5rem;
+            font-weight: 700;
+            color: #fff;
+        }
+        .content-desc {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-top: 2.2rem;
+            margin-bottom: 3.4rem;
+            line-height: 3.5rem;
+        }
+        .content-btn {
+            padding: 1.4rem 3.2rem;
+            background-color: #fff;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            letter-spacing: .2rem;
+            font-weight: 500;
+            border: none !important;
+            border-radius: 0 !important;
+            transition: all ease-in-out .2s;
+
+            &:hover {
+                background-color: #e1be64;
+                color: #fff;
+                transition: all ease-in-out .2s;
+            }
+        }
+    }
+}

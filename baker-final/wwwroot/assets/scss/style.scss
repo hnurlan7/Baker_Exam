@@ -1,0 +1,21 @@
+$heading-font-family: 'Brusher';
+$body-font-family: 'Open Sans', sans-serif;
+*{
+    font-family: $body-font-family;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}   
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+}
+@import "shared";
+@import "header";
+@import "slider";
+@import "designDelicious";
+@import "progressBar";
+@import "tasteRomance";

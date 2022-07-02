@@ -1,0 +1,30 @@
+#taste-romance {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .taste-romance-heading {
+        padding: 4rem 28% 8rem;
+    }
+    .taste-romance-content {
+        .card {
+            border: none;
+
+            .card-body {
+                text-align: center;
+
+                .card-title {
+                    font-size: 2.2rem;
+                    font-weight: 600;
+                    color: #303030;
+                    margin-bottom: 2.4rem;
+                    letter-spacing: .2rem;
+                }
+                .card-text {
+                    font-size: 1.4rem;
+                    color: #8d8d8d;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
